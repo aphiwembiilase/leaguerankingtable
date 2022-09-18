@@ -17,7 +17,7 @@ public class TeamDriver {
 		
 		FileReader fileReader = null;
 		try {
-			fileReader = new FileReader("sample input.txt");
+			fileReader = new FileReader("sample_Input.txt");
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}

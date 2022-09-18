@@ -70,41 +70,5 @@ public class Game {
 		return this.forHomeTeam.getName() + " " + this.homeTeamScore + ", "
 				+ this.forAwayTeam.getName() + " " + awayTeamScore;
 	}
-	
-/*	public static void updateTeamResultsPerGame(List<Game> gameList, int gameAtIndex, List<Team> teamList, int teamAtIndex ){
-		
-		if(teamList.get(teamAtIndex).equals(gameList.get(gameAtIndex).getForHomeTeam()))
-		{
-			if(gameList.get(gameAtIndex).getHomeTeamScore() > gameList.get(gameAtIndex).getAwayTeamScore())
-			{	//Home team wins
-				teamList.get(teamAtIndex).setWin();
-				teamList.get(teamAtIndex).setPoint();
-			
-			}else if(gameList.get(gameAtIndex).getHomeTeamScore() < gameList.get(gameAtIndex).getAwayTeamScore())
-			{	//Home team loses
-				teamList.get(teamAtIndex).setLose();
-			}else if(gameList.get(gameAtIndex).getHomeTeamScore() == gameList.get(gameAtIndex).getAwayTeamScore())
-			{	//A draw
-				teamList.get(teamAtIndex).setDraw();
-				teamList.get(teamAtIndex).setPoint();
-			}
-		}else if(teamList.get(teamAtIndex).equals(gameList.get(gameAtIndex).getForAwayTeam()))
-		{
-			if(gameList.get(gameAtIndex).getHomeTeamScore() > gameList.get(gameAtIndex).getAwayTeamScore())
-			{	
-				teamList.get(teamAtIndex).setLose();
 
-			}else if(gameList.get(gameAtIndex).getHomeTeamScore() < gameList.get(gameAtIndex).getAwayTeamScore())
-			{	
-				teamList.get(teamAtIndex).setWin();
-				teamList.get(teamAtIndex).setPoint();
-
-			}else if(gameList.get(gameAtIndex).getHomeTeamScore() == gameList.get(gameAtIndex).getAwayTeamScore())
-			{	
-				teamList.get(teamAtIndex).setDraw();
-				teamList.get(teamAtIndex).setPoint();
-			}
-
-		}
-	}*/
 }
